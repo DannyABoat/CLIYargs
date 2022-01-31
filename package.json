@@ -1,0 +1,23 @@
+{
+  "name": "cliyargs",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000L\u0000I\u0000Y\u0000a\u0000r\u0000g\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannyABoat/CLIYargs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannyABoat/CLIYargs/issues"
+  },
+  "homepage": "https://github.com/DannyABoat/CLIYargs#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}
