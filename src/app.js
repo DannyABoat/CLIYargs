@@ -7,7 +7,7 @@ const app = (args) => {
         const movie = new Movie(args.movie, args.actor);
         movie.add()
         console.log(movieArr);
-    } else if (args.addMany){
+    } else if(args.addMany){
         console.log("add many command");
     } else{
         console.log("Incorrect command");

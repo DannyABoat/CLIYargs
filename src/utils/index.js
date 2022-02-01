@@ -1,13 +1,13 @@
-const moviesArr = [];
+const movieArr = [];
 
 class Movie {
-    constructor(title, actor = "not defined") {
+    constructor(title, actor = "not defined"){
         this.title = title;
         this.actor = actor;
     }
     add(){
-        moviesArr.push(this);
+        movieArr.push(this);
     }
 };
 
-module.exports = { Movie, moviesArr };
+module.exports = { Movie, movieArr};
