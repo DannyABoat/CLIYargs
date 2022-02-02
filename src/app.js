@@ -8,7 +8,11 @@ const app = (args) => {
         movie.add()
         console.log(movieArr);
     } else if(args.addMany){
-        console.log("add many command");
+        const movie1 = new Movie(args.movie1, args.actor1);
+        const movie2 = new Movie(args.movie2, args.actor2);
+        movie1.add();
+        movie2.add();
+        console.log(movieArr);
     } else{
         console.log("Incorrect command");
     }
